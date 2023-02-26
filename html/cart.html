@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vstore | Home</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <a href="/html/index.html">
+          <img id="Vstore-logo" src="/img/logoo.png" alt="Vstore-logo" />
+        </a>
+        <ul id="navlist">
+          <li><i id="close-icon" class="fa-sharp fa-solid fa-xmark"></i></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" href="#"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+        <div id="Ham-menu">
+          <i id="menu-icon" class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section id="Shop-Intro" class="cart-intro-bg">
+      <h2>#MyCart</h2>
+      <p>See What You Choose</p>
+    </section>
+
+    <section id="cart-sec" class="padding1">
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <td>Remove</td>
+              <td>Product Image</td>
+              <td>Product Name</td>
+              <td>Price</td>
+              <td>Quantity</td>
+              <td>Amount</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i class="fa-solid fa-trash"></i></td>
+              <td><img src="/img/products/band.png" alt="" /></td>
+              <td>Xiaomi Fitness Band</td>
+              <td>&#8377;1499</td>
+              <td><input type="number" value="1"/></td>
+              <td>&#8377;1499</td>
+            </tr>
+
+            <tr>
+              <td><i class="fa-solid fa-trash"></i></td>
+              <td><img src="/img/products/jbl3.jpg" alt="" /></td>
+              <td>JBL C200 Earphones</td>
+              <td>&#8377;699</td>
+              <td><input type="number" value="1"/></td>
+              <td>&#8377;699</td>
+            </tr>
+
+            <tr>
+              <td><i class="fa-solid fa-trash"></i></td>
+              <td><img src="/img/products/gallery-2.jpg" alt="" /></td>
+              <td>HRX T-Shirt Red</td>
+              <td>&#8377;449</td>
+              <td><input type="number" value="1"/></td>
+              <td>&#8377;449</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="add-sec" class="padding1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal1">Apply</button>
+        </div>
+      </div>
+
+      <div id="Carttotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td id="subtotal">&#8377; 2647</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td ><strong id="total">&#8377; 2647</strong></td>
+          </tr>
+        </table>
+        <button class="normal1">Buy Now</button>
+      </div>
+    </section>
+
+    <section id="newsletter-sec" class="padding3 margin1">
+      <div class="newstext">
+        <h4>Sign up for Updates</h4>
+        <p>
+          Get <span>E-mail updates</span> from us about latest Shopping Offers
+        </p>
+      </div>
+      <div class="form">
+        <button class="transparent">Sign Up</button>
+        <input type="text" placeholder="Enter your email" />
+      </div>
+    </section>
+
+    <footer>
+      <div class="column">
+        <img id="footer-logo" src="/img/logoo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Rampur Road, Haldwani, Nainital, UK</p>
+        <p><strong>Phone:</strong> (+91) 7830242605</p>
+        <p><strong>Working:</strong> 9:00AM - 5:00PM, Mon - Fri</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h4>About Us</h4>
+        <a href="#">Delivery Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Return Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+
+      <div class="column">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">Track Orders</a>
+        <a href="#">Wishlist</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="column">
+        <h4>Get Our App</h4>
+        <p>From Play Store or App Store</p>
+        <div class="row">
+          <img src="/img//pay/play-store.png" alt="" />
+          <img src="/img/pay/app-store.png" alt="" />
+        </div>
+        <p>Secured Payments With</p>
+        <img src="/img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        &copy; A HTML CSS & JS template by <strong> Vivek Suyal</strong>
+      </div>
+    </footer>
+
+    <script src="/js/home.js"></script>
+  </body>
+</html>
